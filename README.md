@@ -4,7 +4,7 @@
 2025-RTT-30  
 <time datetime="2025-08-14">2025-08-14</time>  
 
-![Alt text for preview image.](./preview.png)
+![Screenshot of Lab 12.1 with /contact route browser output displayed.](./preview.png)
 
 ## Overview
 ### Viewer Instructions
