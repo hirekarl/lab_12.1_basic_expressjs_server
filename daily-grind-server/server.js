@@ -6,10 +6,10 @@ const port = 3000
 
 const public = path.join(__dirname, "public")
 
-// Handles the "/" route
-app.use(express.static(public))
+app.get("/", (req, res) => {
+  res.sendFile(path.join(public, "index.html"))
+})
 
-// Handles the "/contact" route
 app.get("/contact", (req, res) => {
   res.sendFile(path.join(public, "contact.html"))
 })
